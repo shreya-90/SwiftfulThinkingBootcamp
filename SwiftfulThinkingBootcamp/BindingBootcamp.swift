@@ -20,7 +20,7 @@ struct BindingBootcamp: View {
                 Text(title)
                     .foregroundColor(.white)
                 
-                ButtonView(backgroundColor: $backgroundColor, title: $title)
+                ButtonView(bg: $backgroundColor, title: $title)
             }
             
         }
@@ -29,13 +29,13 @@ struct BindingBootcamp: View {
 
 struct ButtonView: View {
     
-    @Binding var backgroundColor: Color
+    @Binding var bg: Color
     @Binding var title: String
     @State var buttonColor: Color = Color.blue
     
     var body: some View {
         Button(action: {
-            backgroundColor = Color.orange
+            bg = Color.orange
             buttonColor = Color.pink
             title = "New TITLE"
         }, label: {
