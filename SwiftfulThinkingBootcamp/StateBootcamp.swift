@@ -16,9 +16,13 @@ struct StateBootcamp: View {
     var body: some View {
         
         ZStack {
+            
+            //background
             backgroundColor
                 .ignoresSafeArea()
             
+            
+            //content
             VStack(spacing: 20) {
                 Text(myTitle)
                     .font(.title)
