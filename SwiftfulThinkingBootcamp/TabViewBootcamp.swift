@@ -10,14 +10,24 @@ import SwiftUI
 struct TabViewBootcamp: View {
     
     @State var selectedTab: Int = 0
+    let icons: [String] = [
+        "heart.fill", "globe", "house.fill", "person.fill"
+    ]
     
     var body: some View {
         TabView {
-            RoundedRectangle(cornerRadius: 25.0)
-            RoundedRectangle(cornerRadius: 25.0)
-            RoundedRectangle(cornerRadius: 25.0)
+            ForEach(icons, id: \.self) { icon in
+                Image(systemName: icon)
+                    .resizable()
+                    .scaledToFit()
+                    .padding(30)
+            }
         }
+        .background(
+            RadialGradient(gradient: Gradient(colors: [.red, .blue]), center: .center, startRadius: 5, endRadius: 300)
+        )
         .tabViewStyle(.page)
+        .frame(height: 300)
         
 //        TabView(selection: $selectedTab) {
 //            HomeView(selectedTabNoThree: $selectedTab)
