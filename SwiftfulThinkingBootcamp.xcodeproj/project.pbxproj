@@ -53,6 +53,7 @@
 		1A54225B2C956434007FB9B1 /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54225A2C956434007FB9B1 /* StepperBootcamp.swift */; };
 		1A54225D2C956DB0007FB9B1 /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54225C2C956DB0007FB9B1 /* SliderBootcamp.swift */; };
 		1A54225F2C958984007FB9B1 /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54225E2C958984007FB9B1 /* TabViewBootcamp.swift */; };
+		1A5422612C95A870007FB9B1 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5422602C95A870007FB9B1 /* DarkModeBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +104,7 @@
 		1A54225A2C956434007FB9B1 /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
 		1A54225C2C956DB0007FB9B1 /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 		1A54225E2C958984007FB9B1 /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
+		1A5422602C95A870007FB9B1 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				1A54225A2C956434007FB9B1 /* StepperBootcamp.swift */,
 				1A54225C2C956DB0007FB9B1 /* SliderBootcamp.swift */,
 				1A54225E2C958984007FB9B1 /* TabViewBootcamp.swift */,
+				1A5422602C95A870007FB9B1 /* DarkModeBootcamp.swift */,
 				1A5422022C81A81E007FB9B1 /* Assets.xcassets */,
 				1A5422042C81A81E007FB9B1 /* Preview Content */,
 			);
@@ -294,6 +297,7 @@
 				1A54223F2C8F03EC007FB9B1 /* TransitionBootcamp.swift in Sources */,
 				1A54221D2C86F507007FB9B1 /* StacksBootcamp.swift in Sources */,
 				1A5422432C9042DB007FB9B1 /* PopoverBootcamp.swift in Sources */,
+				1A5422612C95A870007FB9B1 /* DarkModeBootcamp.swift in Sources */,
 				1A54225B2C956434007FB9B1 /* StepperBootcamp.swift in Sources */,
 				1A54224B2C91B9FE007FB9B1 /* ActionSheetBootcamp.swift in Sources */,
 				1A5422572C943B88007FB9B1 /* ColorPickerBootcamp.swift in Sources */,
