@@ -50,6 +50,9 @@
 		1A5422552C92E0D1007FB9B1 /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5422542C92E0D1007FB9B1 /* PickerBootcamp.swift */; };
 		1A5422572C943B88007FB9B1 /* ColorPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5422562C943B88007FB9B1 /* ColorPickerBootcamp.swift */; };
 		1A5422592C94758A007FB9B1 /* DatePickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5422582C94758A007FB9B1 /* DatePickerBootcamp.swift */; };
+		1A54225B2C956434007FB9B1 /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54225A2C956434007FB9B1 /* StepperBootcamp.swift */; };
+		1A54225D2C956DB0007FB9B1 /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54225C2C956DB0007FB9B1 /* SliderBootcamp.swift */; };
+		1A54225F2C958984007FB9B1 /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54225E2C958984007FB9B1 /* TabViewBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +100,9 @@
 		1A5422542C92E0D1007FB9B1 /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		1A5422562C943B88007FB9B1 /* ColorPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootcamp.swift; sourceTree = "<group>"; };
 		1A5422582C94758A007FB9B1 /* DatePickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBootcamp.swift; sourceTree = "<group>"; };
+		1A54225A2C956434007FB9B1 /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
+		1A54225C2C956DB0007FB9B1 /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
+		1A54225E2C958984007FB9B1 /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,9 @@
 				1A5422542C92E0D1007FB9B1 /* PickerBootcamp.swift */,
 				1A5422562C943B88007FB9B1 /* ColorPickerBootcamp.swift */,
 				1A5422582C94758A007FB9B1 /* DatePickerBootcamp.swift */,
+				1A54225A2C956434007FB9B1 /* StepperBootcamp.swift */,
+				1A54225C2C956DB0007FB9B1 /* SliderBootcamp.swift */,
+				1A54225E2C958984007FB9B1 /* TabViewBootcamp.swift */,
 				1A5422022C81A81E007FB9B1 /* Assets.xcassets */,
 				1A5422042C81A81E007FB9B1 /* Preview Content */,
 			);
@@ -257,6 +266,7 @@
 				1A5422412C8F31BC007FB9B1 /* SheetsBootcamp.swift in Sources */,
 				1A54222F2C89BCEA007FB9B1 /* StateBootcamp.swift in Sources */,
 				1A5422132C846749007FB9B1 /* GradientsBootcamp.swift in Sources */,
+				1A54225F2C958984007FB9B1 /* TabViewBootcamp.swift in Sources */,
 				1A54221B2C85EA25007FB9B1 /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				1A5422512C91DF65007FB9B1 /* TextEditorBootcamp.swift in Sources */,
 				1A5422272C8867A5007FB9B1 /* ScrollViewBootcamp.swift in Sources */,
@@ -284,10 +294,12 @@
 				1A54223F2C8F03EC007FB9B1 /* TransitionBootcamp.swift in Sources */,
 				1A54221D2C86F507007FB9B1 /* StacksBootcamp.swift in Sources */,
 				1A5422432C9042DB007FB9B1 /* PopoverBootcamp.swift in Sources */,
+				1A54225B2C956434007FB9B1 /* StepperBootcamp.swift in Sources */,
 				1A54224B2C91B9FE007FB9B1 /* ActionSheetBootcamp.swift in Sources */,
 				1A5422572C943B88007FB9B1 /* ColorPickerBootcamp.swift in Sources */,
 				1A5422352C8AF693007FB9B1 /* BindingBootcamp.swift in Sources */,
 				1A5422212C873CA2007FB9B1 /* SpacerBootcamp.swift in Sources */,
+				1A54225D2C956DB0007FB9B1 /* SliderBootcamp.swift in Sources */,
 				1A54223B2C8C3E42007FB9B1 /* AnimationBootcamp.swift in Sources */,
 				1A5422292C8883AE007FB9B1 /* GridBootcamp.swift in Sources */,
 				1A5422452C906261007FB9B1 /* NavigationViewBootcamp.swift in Sources */,

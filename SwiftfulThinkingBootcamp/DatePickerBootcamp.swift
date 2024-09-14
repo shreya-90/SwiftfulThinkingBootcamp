@@ -15,19 +15,21 @@ struct DatePickerBootcamp: View {
     let endingDate: Date = Date()
     
     var dateFormatter: DateFormatter {
-        
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .short
+        return formatter
     }
     
     var body: some View {
 //        DatePicker("Select a Date", selection: $selectedDate)
 //        DatePicker("Select a date", selection: $selectedDate, displayedComponents: [.date])
         
-        
         Text("Selected Date is:".uppercased())
-        Text(selectedDate.description)
+        Text(dateFormatter.string(from: selectedDate))
             .font(.title)
         
-            
+        
         DatePicker("Select a Date", selection: $selectedDate, in: startingDate...endingDate, displayedComponents: [.date, .hourAndMinute])
             .accentColor(.red)
             .datePickerStyle(.compact)
