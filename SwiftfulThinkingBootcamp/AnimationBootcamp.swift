@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+@available(*, introduced: 13.0, deprecated: 15.0, message: "Use withAnimation or animation(_:value:) instead.")
+
 struct AnimationBootcamp: View {
     
     @State var isAnimated: Bool = false

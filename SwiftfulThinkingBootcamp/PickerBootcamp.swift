@@ -36,7 +36,6 @@ struct PickerBootcamp: View {
         } label: {
             Text("Picker")
         }.pickerStyle(.segmented)
-//            .background(Color.red)
 
         
 //        VStack {
